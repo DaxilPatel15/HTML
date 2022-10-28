@@ -1,0 +1,233 @@
+body{
+  margin: 0px 0px;
+}
+div.fp3 p{
+  top: 800px;
+position: absolute;
+font-family: 'Press Start 2P', cursive;
+/* adding google fonts */
+font-size: 40px;
+}
+div.fp4 p{
+  top: 950px;
+    position: absolute;
+    font-size: 30px;
+font-family: 'Press Start 2P', cursive;
+ }
+
+div.fp6 a{
+  position: absolute;
+    top: 1140px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+div.fp7 a{
+  position: absolute;
+    top: 500px;
+    padding-left: 483px;
+
+}
+div.fp7 a > img{
+  height: 500px;
+    position: absolute;
+    top: 276px;
+    padding-left: 488px;
+}
+div.fp8 p:nth-child(1){
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 63px;
+    top: 1451px;
+    padding-left: 90px;
+}
+div.fp8 p:nth-child(2){
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 63px;
+    top: 1629px;
+    padding-left: 156px;
+}
+div.fp8 p:nth-child(3){
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 63px;
+    top: 1427px;
+    padding-left: 1500px;
+}
+div.fp8 p:nth-child(4){
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 63px;
+    top: 1607px;
+    padding-left: 1572px;
+}
+div.fp8 p:nth-child(5){
+  position: absolute;
+    top: 1380px;
+    padding-left: 636px;
+}
+div.fp9 img{
+  width:100%;
+}
+.section2{
+  position: absolute;
+  top: 840px;
+}
+
+.section3{
+  position: absolute;
+  top: 1540px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+div.fp10{
+  display: flex;
+}
+div.fp10 p{
+  padding-left: 30px;
+  align-items:center;
+  font-family: none;
+  font-size: 30px;
+}
+.section4{
+  position: absolute;
+  top: 1804px;
+  font-size: 30px;
+
+}
+div.fp11{
+  display: flex;
+}
+div.fp11 img{
+  width: 300px;
+}
+div.fp12 p:nth-child(2){
+  position: absolute;
+    top: 1370px;
+    padding-left: 52px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+div.fp12 p:nth-child(1){
+  position: absolute;
+top: 1350px;
+font-size: 45px;
+height: 100px;
+
+}
+/* global header */
+header{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+    background-color: #0e0e0e;
+    justify-content: flex-end;
+
+}
+
+.logo-container{
+  height: 110px;
+  flex-grow: 1;
+}
+.logo-container a img{
+  height: 100px;
+  width: auto;
+}
+header nav ul{
+  list-style: none;
+  display: flex;
+  padding-left: 300px;
+}
+header nav ul li:nth-child(1) a{
+  padding-right:20px;
+  text-decoration: none;
+}
+header nav ul li:nth-child(2) a{
+  padding-right:20px;
+  text-decoration: none;
+}
+header nav ul li:nth-child(2) a{
+  padding-right:20px;
+  text-decoration: none;
+}
+/* global header end */
+
+/*GLOBAL FOOTER  */
+footer{
+  height: 125px;
+
+  align-items: center;
+  position: fixed;
+
+padding-top: 2300px;
+  top: 2700px;
+  background-color: #ffffff;
+  justify-content: flex-end;
+}
+.logo-container2{
+  padding-top:2300px;
+}
+.section5{
+  display: flex;
+}
+.face img{
+  height: 77px;
+
+    padding-left: 854px;
+    padding-top: 35px;
+
+}
+.insta img{
+  height: 100px;
+
+      padding-left: 936px;
+      padding-top: 21px;
+
+}
+.twitter img{
+  height: 75px;
+
+    padding-left: 1033px;
+    padding-top: 30px;
+
+}
+.youtube img{
+  height: 75px;
+
+    padding-left: 1130px;
+    padding-top: 30px;
+
+}
+/* GLOBAL FOOTER END */
+.section5{
+
+    padding-left: 130px;
+
+}
+.contact3 p:nth-child(2){
+  background-color: #0e0e0e;
+}
+.productsection2{
+  display: flex;
+    padding-left: 914px;
+    top: 141px;
+    font-size: 22px;
+    position: absolute;
+}
+.productsection4{
+  display: flex;
+    position: absolute;
+    top: 612px;
+    padding-left: 1016px;
+}
+.productsection3{
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+.contact{
+  background-color: #0e0e0e;
+  color:#ffffff;
+}
