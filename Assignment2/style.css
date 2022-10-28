@@ -1,0 +1,86 @@
+/* NAME:DAXIL PATEL */
+/* STUDENT ID:200520270 */
+
+body
+{
+margin:
+    0px;
+}
+h1, h2, h3, h4
+{
+    font - family : 'inherit', sans - serif;
+    /* using google fonts */
+}
+
+p, a, li, figcaption
+{
+    font - family : 'Tai Heritage Pro', sans - serif;
+    font - size : 20px;
+    /* re-sizing the font  */
+    text - decoration : none;
+}
+figcaption
+{
+    font - family : 'Lobster', sans - serif;
+    font - size : 15px;
+    text - decoration : none;
+}
+.flex > header
+{
+padding:
+    10px 20px;
+display:
+    flex;
+    align - items : center;
+    background - color : #FAAB36;
+}
+.flex > header > div
+{
+width:
+    auto;
+height:
+    110px;
+    flex - grow : 1;
+}
+.flex > header > div > a > img
+{
+width:
+    auto;
+height:
+    100 % ;
+}
+.flex > header > nav > ul
+{
+    margin - bottom : 0px;
+    list - style : none;
+display:
+    flex;
+}
+.flex > header > nav > ul > li
+{
+padding:
+    0px 15px;
+color:
+# 0e0e0e;
+    /* adding black color to the text */
+}
+.flex > header > nav > ul > li > a
+{
+color:
+# 0e0e0e;
+}
+
+.flex > div > main > section : first - child
+{
+width:
+    100 % ;
+height:
+    100vh;
+    background - image : url('../img/sample-6.jpg');
+    background - size : cover;
+    /* using background image to show text on image */
+}
+.flex div.menu > h2
+{
+    text - align : center;
+}
