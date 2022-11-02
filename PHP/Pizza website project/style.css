@@ -1,0 +1,183 @@
+/* NAME:DAXIL PATEL */
+/* STUDENT ID:200520270 */
+
+
+
+body{
+  margin: 0px;
+  background-color: skyblue;
+}
+h1,h2,h3,h4{
+  font-family: 'inherit', sans-serif;
+  /* using google fonts */
+}
+
+p,a,li,figcaption{
+font-family: 'Tai Heritage Pro', sans-serif;
+font-size: 20px;
+/* re-sizing the font  */
+text-decoration: none;
+}
+figcaption{
+  font-family: 'Lobster', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+.flex > header{
+      display: flex;
+      /* adding flex to put the content in vertical way */
+      align-items: center;
+      position: sticky;
+      overflow: hidden;
+      /* using above information to stick the header and stay fixed when scroll */
+      top: 0px;
+      height: 90px;
+      justify-content: space-between;
+      background-color: skyblue;
+      margin-left: 3px;
+
+      padding-bottom: 5px;
+      border-radius: 8px;
+}
+.flex > header > div{
+  width: auto;
+  height: 110px;
+  flex-grow: 1;
+}
+.flex > header > div > a > img{
+  width: auto;
+  height: 100%;
+}
+.flex > header > nav > ul{
+margin-bottom: 0px;
+list-style: none;
+display: flex;
+}
+.flex > header > nav > ul > li{
+  padding: 0px 15px;
+  color: #0e0e0e;
+  /* adding black color to the text */
+}
+.flex > header > nav > ul > li > a{
+  color: #0e0e0e;
+}
+
+section.section1{
+width: 100%;
+height: 100vh;
+background-image: url('../img/sample-6.jpg');
+/* adding background image */
+background-size: cover;
+text-align: center;
+    padding-top: 371px;
+    font-size: 65px;
+    padding-left: 28px;
+    color: plum;
+/* using background image to show behind the text  */
+}
+div.menu h2{
+  text-align: center;
+  /* adding text align to align text in center */
+}
+section.section2{
+  display: flex;
+}
+div.pizza1 > h3 {
+  margin-left: 42px;
+}
+div.pizzatopp1{
+  padding-top: 46px;
+    padding-left: 37px;
+}
+div.Quantity1{
+  font-size: larger;
+    padding-left: 45px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+/* NAME:DAXIL PATEL */
+/* STUDENT ID:200520270 */
+div.quantity{
+  padding-top: 10px;
+}
+div.size1{
+  padding-top: 41px;
+    padding-left: 130px;
+}
+div.button1{
+  padding-top: 117px;
+}
+
+section.section3{
+  display: flex;
+}
+
+div.pizzatopp2{
+  padding-top: 46px;
+    padding-left: 37px;
+}
+div.Quantity2{
+  font-size: larger;
+    padding-left: 45px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+div.size2{
+  padding-top: 41px;
+    padding-left: 130px;
+}
+div.button2{
+  padding-top: 117px;
+}
+
+section.section4{
+  display: flex;
+}
+div.pizzatopp3{
+  padding-top: 46px;
+    padding-left: 37px;
+}
+div.Quantity3{
+  font-size: larger;
+    padding-left: 45px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+div.size3{
+  padding-top: 41px;
+    padding-left: 130px;
+}
+div.button3{
+  padding-top: 117px;
+}
+div.information{
+  margin-left: 20px;
+  text-align: center;
+}
+div.information > label{
+  font-size: 20px;
+}
+div.information > input{
+  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    font-size: 16px;
+}
+/*  */
+div.order{
+  text-align: center;
+}
+footer > p{
+    font-size: 30px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 588px;
+    background-color: cyan;
+}
+footer{
+  background-color: white;
+  height: 50px;
+
+}
